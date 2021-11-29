@@ -15,4 +15,9 @@ $ docker exec -i -t mongo_boot bash
 ```
 
 - Neo4j
+```xml
+-- mac book m1칩을 사용하는 경우 --platform linux/amd64 옵션이 추가되어야 합니다. 
+$ docker run -p 7474:7474 -p 7687:7687 -d --name neo4j_boot --platform linux/amd64 neo4j
+- 접속: http://localhost:7474/browser/
+```
 
