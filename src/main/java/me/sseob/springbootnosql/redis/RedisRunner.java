@@ -33,6 +33,6 @@ public class RedisRunner implements ApplicationRunner {
 		accontRepository.save(account);
 
 		Optional<Account> byId = accontRepository.findById(account.getId());
-		System.out.println(byId);
+		System.out.println("RedisRunner: " + byId);
 	}
 }

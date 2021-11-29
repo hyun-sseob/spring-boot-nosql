@@ -9,5 +9,4 @@ public class SpringBootNosqlApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootNosqlApplication.class, args);
 	}
-
 }
